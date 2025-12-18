@@ -812,10 +812,6 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the ISC License.
 
-## 👨‍💻 Authors
-
-**Clarusway FullStack Team**
-
 ## 🙏 Acknowledgments
 
 - Material-UI for the component library
@@ -823,6 +819,7 @@ This project is licensed under the ISC License.
 - MongoDB for the database
 - Express.js community
 - React community
+- Clarusway
 
 ## 📞 Support
 
