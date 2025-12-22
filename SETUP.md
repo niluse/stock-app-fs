@@ -56,14 +56,14 @@ This is a full-stack Stock Management System with a React frontend and Node.js/E
 3. Verify the `.env` file exists with correct settings:
 
    ```
-   NODE_ENV=development
-   HOST=127.0.0.1
-   PORT=8000
-   MONGODB=mongodb://127.0.0.1:27017/stockManagement
-   SECRET_KEY=a7db7ashd7ashd7ahsd7ashd7ashd7hasd7g2367f4e219er
-   ACCESS_KEY=asida87shd7ahsdh7as7dhas7dh7sadhas7dha7sdha7sdhas
-   REFRESH_KEY=ijasd8ahsd8jhas8dha8sd8asdh8ashd8ashd8ahsd*ds9d9f
-   PAGE_SIZE=25
+  `NODE_ENV` - Set to `development` or `production`
+  `HOST` - Server host (default: `127.0.0.1`)
+  `PORT` - Server port (default: `8000`)
+  `MONGODB` - MongoDB connection string
+  `SECRET_KEY` - Secret key for general encryption (generate using `openssl rand -hex 32`)
+  `ACCESS_KEY` - JWT access token secret (generate using `openssl rand -hex 32`)
+  `REFRESH_KEY` - JWT refresh token secret (generate using `openssl rand -hex 32`)
+  `PAGE_SIZE` - Pagination size (default: `25`)
    ```
 
 4. Start the backend server:
